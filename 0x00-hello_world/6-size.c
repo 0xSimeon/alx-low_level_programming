@@ -4,7 +4,7 @@
  * main - prints out the size of data types
  * @void: indicates no parameter
  *
- * Return : Always 0 (Success)
+ * Return: Always 0 (Success)
  **/
 
 int main(void)
