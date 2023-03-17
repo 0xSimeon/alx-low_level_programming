@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <time.h>
-
+#include <stdlib.h>
 /**
  * main - Entry of the program.
  * Description: The program checks if a random number is positive or negative
