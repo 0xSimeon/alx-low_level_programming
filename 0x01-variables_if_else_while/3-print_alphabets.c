@@ -20,6 +20,7 @@ int main(void)
 	while (upper <= 90)
 	{
 		putchar(upper);
+		upper++;
 	}
 
 	putchar('\n');
