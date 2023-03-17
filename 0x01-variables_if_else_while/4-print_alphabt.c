@@ -13,19 +13,13 @@ int main(void)
 
 	while (alphabet <= 122)
 	{
-		if (alphabet == 101)
+		if (alphabet == 101 || alphabet == 113)
 		{
-			continue;
-		}
-		else if (alphabet == 113)
-		{
-			continue;
-		}
-		else
-		{
-			putchar(alphabet);
 			alphabet++;
+			continue;
 		}
+		putchar(alphabet);
+		alphabet++;
 	}
 
 	putchar('\n');
