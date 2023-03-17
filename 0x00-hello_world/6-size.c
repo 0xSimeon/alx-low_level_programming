@@ -5,7 +5,7 @@
  * @void: indicates no parameter
  *
  * Return : Always 0 (Success)
- */
+ **/
 
 int main(void)
 {
