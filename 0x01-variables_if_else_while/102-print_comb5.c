@@ -11,18 +11,18 @@
 
 int main(void)
 {
-	int i, j;
+	int i, j, tens1, ones1, tens2, ones2;
 	/* @comment  Nested loop to get all possible pairs of two-digit numbers */
 	for (i = 0; i < 100; i++)
 	{
 		for (j = i; j < 100; j++)
 		{
-			/* Get two different combinations
-			int tens1 = i / 10;
-			int ones1 = i % 10;
-			int tens2 = j / 10;
-			int ones2 = j % 10;
-			/* Print the first number with two digits */
+			/* Get two different combinations */
+			tens1 = i / 10;
+			ones1 = i % 10;
+			tens2 = j / 10;
+			ones2 = j % 10;
+			
 			putchar(tens1 + '0');
 			putchar(ones1 + '0');
 			/* Print a space between the two numbers */
