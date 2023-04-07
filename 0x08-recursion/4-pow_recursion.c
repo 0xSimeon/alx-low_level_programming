@@ -2,7 +2,7 @@
 
 /**
  * _pow_recursion - returns the value of x raised to the power of y
- * @x: value to be raised to y power 
+ * @x: value to be raised to y power
  * @y: power to raise x value to.
  * Return: result of the power computation
  */
