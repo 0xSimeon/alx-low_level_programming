@@ -17,7 +17,7 @@ int get_prime(int n, int i)
 	{
 		return (0);
 	}
-	return (get_primte(n, i - 1));
+	return (get_prime(n, i - 1));
 }
 
 /**
