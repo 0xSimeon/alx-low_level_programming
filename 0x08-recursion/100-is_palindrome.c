@@ -10,7 +10,9 @@
 int _strlen_recursion(char *s)
 {
 	if (*s == '\0')
+	{
 		return (0);
+	}
 	return (1 + _strlen_recursion(s + 1));
 }
 
@@ -24,10 +26,14 @@ int _strlen_recursion(char *s)
  */
 int get_palindrome(char *s, int i, int strlen)
 {
-	if (*(s + i) != *(s + len - 1))
+	if (*(s + i) != *(s + strlen - 1))
+	{
 		return (0);
+	}
 	if (i >= strlen)
+	{
 		return (1);
+	}
 	return (get_palindrome(s, i + 1, strlen - 1));
 }
 
@@ -40,6 +46,8 @@ int get_palindrome(char *s, int i, int strlen)
 int is_palindrome(char *s)
 {
 	if (*s == 0)
+	{
 		return (1);
+	}
 	return (get_palindrome(s, 0, _strlen_recursion(s)));
 }
